@@ -6,7 +6,7 @@
 // You can pass additional config via defineConfig({ vite: { ... } }) if needed.
 
 if (process.env.VERCEL) {
-  process.env.NITRO_PRESET = "vercel";
+  process.env.NITRO_PRESET = "vercel-edge";
 }
 
 import { defineConfig } from "@lovable.dev/vite-tanstack-config";
@@ -16,8 +16,5 @@ import { defineConfig } from "@lovable.dev/vite-tanstack-config";
 export default defineConfig({
   tanstackStart: {
     server: { entry: "server" },
-    deployment: {
-      preset: "vercel",
-    },
   },
 });
