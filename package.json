@@ -5,8 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite dev",
-    "build": "NITRO_PRESET=vercel vinxy build",
-    "build:dev": "vinxy build --mode development",
+    "build": "NITRO_PRESET=vercel npx vinxy build",
+    "build:dev": "npx vinxy build --mode development",
     "preview": "vite preview",
     "lint": "eslint .",
     "format": "prettier --write ."
@@ -84,6 +84,7 @@
     "typescript": "^5.8.3",
     "typescript-eslint": "^8.56.1",
     "vite": "^7.3.1",
-    "nitropack": "^2.13.0"
+    "nitropack": "^2.13.0",
+    "vinxy": "^0.5.1"
   }
 }
