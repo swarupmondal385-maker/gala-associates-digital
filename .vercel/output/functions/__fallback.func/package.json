@@ -1,0 +1,10 @@
+{
+  "name": "tanstack_start_ts-prod",
+  "version": "0.0.0",
+  "type": "module",
+  "private": true,
+  "dependencies": {
+    "pathe": "1.1.2",
+    "vinxi": "0.5.11"
+  }
+}
